@@ -1,0 +1,90 @@
+body {
+    font-family: 'Poppins';
+}
+main {
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 0 60px 0 123px
+}
+/*--------background  decoration ------------- */
+
+.top__image{
+    height: 100px;
+    background-image: url(./image/top-image.jpg);
+}
+
+.botton__image{
+    bottom: 0;
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    background-image: url(./image/bottom-image.jpg);
+    
+}
+/*-------- Main content ------------- */
+.container {
+    margin-right: 82px;
+    font-style: normal;
+}
+.container__title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;    
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #6C63FF;}
+
+.container__countdown{
+    width: 494px;
+    text-align: center;
+}
+.container__countdown--type{
+    padding: 0;
+    justify-content: space-around;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #C8C8C8;
+}
+
+.countdown__numbers{
+    margin: 0;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 108px;
+    color: #4D4C59;
+}
+.container__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9C9AB6;
+}
+
+.container__button {
+    margin-top: 32px;
+    background: #6C63FF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 16px 32px 16px 32px;
+    border: none;
+}
+
+.container__button:hover{
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 1px solid #6C63FF;
+    color: #6C63FF;
+}
+
+
+/*-----  modal ---------*/
+
+.modal-form{
+    padding: 15px;
+}
